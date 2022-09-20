@@ -16,11 +16,6 @@
 <p class="logo2-top"><a href="https://www.schachbund.de/"><img src="/_layout/logo-dsb-60.png" alt="DSJ"  srcset="/_layout/logo-dsb-60.png 1x, /_layout/logo-dsb-120.png 2x"></a> <a href="https://www.deutsche-schachjugend.de/"><img src="/_layout/logo-dsj-60.png" alt="DSJ"  srcset="/_layout/logo-dsj-60.png 1x, /_layout/logo-dsj-120.png 2x"></a></p>
 %%% block definition end %%%
 
-%%% block definition foot %%%
-<span class="dsj"><a href="https://www.schachbund.de">Deutscher Schachbund</a>  &nbsp;&middot;&nbsp; <a href="https://www.deutsche-schachjugend.de/">Deutsche Schachjugend</a> &nbsp;&middot;&nbsp; </span><a href="https://www.deutsche-schachjugend.de/dsj-inside/organisation/impressum/">Impressum</a> &nbsp;&middot;&nbsp; <a href="https://www.deutsche-schachjugend.de/dsj-inside/organisation/datenschutz/">Datenschutz</a> &nbsp;&middot;&nbsp; <a href="/kontakt/">Kontakt</a>
-%%% page loggedin " &nbsp;&middot;&nbsp; Angemeldet als: <strong>%s</strong> &middot; <a href='/logout/'>Abmelden</a>" %%%
-%%% block definition end %%%
-
 %%% condition unless page login %%%
 %%% condition unless page loggedin %%%
 %%% block definition scriptfoot %%%
