@@ -17,7 +17,7 @@
 %%% block definition end %%%
 
 %%% condition unless page login %%%
-%%% condition unless page loggedin %%%
+%%% condition unless page sessioncontact %%%
 %%% block definition scriptfoot %%%
 <script type="text/javascript">
 var _gaq = _gaq || [];
