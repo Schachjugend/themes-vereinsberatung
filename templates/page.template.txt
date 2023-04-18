@@ -5,7 +5,7 @@
 # https://www.zugzwang.org/themes/vereinsberatung
 #
 # @author Gustaf Mossakowski <gustaf@koenige.org>
-# @copyright Copyright © 2017-2018, 2022 Gustaf Mossakowski
+# @copyright Copyright © 2017-2018, 2022-2023 Gustaf Mossakowski
 # @license http://opensource.org/licenses/lgpl-3.0.html LGPL-3.0
 #
 %%% block definition css %%%
@@ -15,23 +15,5 @@
 %%% block definition logo %%%
 <p class="logo2-top"><a href="https://www.schachbund.de/"><img src="/_layout/logo-dsb-60.png" alt="DSJ"  srcset="/_layout/logo-dsb-60.png 1x, /_layout/logo-dsb-120.png 2x"></a> <a href="https://www.deutsche-schachjugend.de/"><img src="/_layout/logo-dsj-60.png" alt="DSJ"  srcset="/_layout/logo-dsj-60.png 1x, /_layout/logo-dsj-120.png 2x"></a></p>
 %%% block definition end %%%
-
-%%% condition unless page login %%%
-%%% condition unless page sessioncontact %%%
-%%% block definition scriptfoot %%%
-<script type="text/javascript">
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', '%%% setting google_analytics_user %%%']);
-_gaq.push(['_gat._anonymizeIp']);
-_gaq.push(['_trackPageview']);
-(function() {
-var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-})();
-</script>
-%%% block definition end %%%
-%%% condition endif %%%
-%%% condition endif %%%
 
 %%% include chess16/page %%%
