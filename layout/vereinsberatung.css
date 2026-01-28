@@ -27,7 +27,7 @@
 	p.logo2-top	{ padding: 0; }
 }
 
-div.text #zzform
+main #zzform
 				{ padding: 0; }
 #zzform .separator p
 				{ padding: .25em .5em; line-height: 1.3; }
